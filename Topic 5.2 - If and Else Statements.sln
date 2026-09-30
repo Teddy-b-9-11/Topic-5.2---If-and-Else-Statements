@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic 5.2 - If and Else Statements", "Topic 5.2 - If and Else Statements\Topic 5.2 - If and Else Statements.csproj", "{D7CDCA54-35C7-44FA-85F1-319F6F18C9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CDCA54-35C7-44FA-85F1-319F6F18C9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CDCA54-35C7-44FA-85F1-319F6F18C9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CDCA54-35C7-44FA-85F1-319F6F18C9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CDCA54-35C7-44FA-85F1-319F6F18C9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40A81BB9-00DC-4F39-97D5-C4028AAC7D2D}
+	EndGlobalSection
+EndGlobal
