@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int grade;
+
+            Console.WriteLine("What was your grade?");
+            int.TryParse(Console.ReadLine(), out grade);
+            if (grade >= 50)
+                Console.WriteLine("YOU PASSED!!");
+            else
+                Console.WriteLine("You failed... Better luck next time!");
+
+
         }
     }
 }
