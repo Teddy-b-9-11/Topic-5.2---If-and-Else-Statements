@@ -4,14 +4,34 @@
     {
         static void Main(string[] args)
         {
-            int grade;
+            int age;
+            double grade;
 
             Console.WriteLine("What was your grade?");
-            int.TryParse(Console.ReadLine(), out grade);
+            double.TryParse(Console.ReadLine(), out grade);
             if (grade >= 50)
                 Console.WriteLine("YOU PASSED!!");
             else
                 Console.WriteLine("You failed... Better luck next time!");
+
+            Console.WriteLine("How old are you?");
+            int.TryParse(Console.ReadLine(), out age);
+            Console.WriteLine("You are " + age);
+            if (age >= 16)
+                Console.WriteLine("The roads aren't safe");
+            else
+                Console.WriteLine("I can drive with out fear");
+            
+
+
+
+
+
+
+
+
+
+
 
 
         }
